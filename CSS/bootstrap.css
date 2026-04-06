@@ -1,0 +1,8 @@
+.accordion#accordionX .accordion-item{
+    background-color: green;
+    color: antiquewhite;
+}
+.modal-body #modalX{
+    background-color: greenyellow;
+    color:darkgrey ;
+}

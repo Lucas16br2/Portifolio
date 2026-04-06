@@ -1,0 +1,62 @@
+.titulo{
+    text-align: center;
+    font-family: monospace;
+    font-size: 46px;
+    text-size-adjust: 100%;
+    /* background: linear-gradient(to top, blue, red); */
+
+
+}
+h4{
+    /* margin-left: 50px; */
+    background: linear-gradient(to left, rgb(255, 146, 146), rgb(140, 131, 255));
+    text-align: center;
+    /* width: 500px ; */
+    border-radius: 50px;
+    max-width: 500px;
+    font-size: 30px;
+}
+@keyframes color-rotate {
+  from {
+    filter: hue-rotate(0deg);
+  }
+  to {
+    filter: hue-rotate(360deg);
+  }
+}
+
+.elemento-rgb {
+  /* Aplica a animação, duração de 3s, linear e infinita */
+  animation: color-rotate 3s linear infinite;
+  
+  /* Exemplo com texto */
+  color: #ff0000; /* Cor inicial */
+  background-color: #00ff0d;
+  text-align: center;
+  font-size: 40px;
+}
+.elemento-rgb2{
+    animation: color-rotate 15s linear infinite;
+  
+  /* Exemplo com texto */
+  color: #ff0000; /* Cor inicial */
+ 
+  text-align: center;
+  font-size: 40px;
+}
+
+
+h5{
+    /* margin-left: 50px; */
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.btn.btn_meu{
+    color: rgb(0, 0, 0);
+    background-color: aquamarine;
+    max-width: 100px;
+    
+}
+
