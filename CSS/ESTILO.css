@@ -7,14 +7,19 @@
 
 
 }
-h4{
+.conteudo-protifolio{
     /* margin-left: 50px; */
-    background: linear-gradient(to left, rgb(255, 146, 146), rgb(140, 131, 255));
+    background-color: rgb(132, 86, 241) ;
     text-align: center;
     /* width: 500px ; */
     border-radius: 50px;
     max-width: 500px;
     font-size: 30px;
+    background-size: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 @keyframes color-rotate {
   from {
@@ -25,25 +30,7 @@ h4{
   }
 }
 
-.elemento-rgb {
-  /* Aplica a animação, duração de 3s, linear e infinita */
-  animation: color-rotate 3s linear infinite;
-  
-  /* Exemplo com texto */
-  color: #ff0000; /* Cor inicial */
-  background-color: #00ff0d;
-  text-align: center;
-  font-size: 40px;
-}
-.elemento-rgb2{
-    animation: color-rotate 15s linear infinite;
-  
-  /* Exemplo com texto */
-  color: #ff0000; /* Cor inicial */
- 
-  text-align: center;
-  font-size: 40px;
-}
+
 
 
 h5{
@@ -58,5 +45,13 @@ h5{
     background-color: aquamarine;
     max-width: 100px;
     
+}
+
+
+.centralizar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajuste conforme necessário */
 }
 
