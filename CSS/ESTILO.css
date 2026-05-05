@@ -8,15 +8,17 @@
 
 }
 .conteudo-protifolio{
-    /* margin-left: 50px; */
-    background-color: rgb(132, 86, 241) ;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(40, 243, 141) ;
     text-align: center;
     /* width: 500px ; */
     border-radius: 50px;
     max-width: 500px;
-    font-size: 30px;
+    font-size: 120%, 30px;
     background-size: 10px;
-    margin: 0;
+    margin: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,6 +30,11 @@
   to {
     filter: hue-rotate(360deg);
   }
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Cria um fundo cinza transparente atrás da seta */
+    border-radius: 50%;
 }
 
 
@@ -53,5 +60,26 @@ h5{
     justify-content: center;
     align-items: center;
     height: 100vh; /* Ajuste conforme necessário */
+}
+
+body{
+    background-color: rgb(240, 240, 240);
+}
+
+.image-carrosel{    
+    width: 100%;
+    height: 70vh; /* Ocupa 70% da altura da tela */
+    object-fit: cover; /* Corta a imagem para preencher o espaço sem distorcer */
+    object-position: center; /* Foca no centro da foto */
+    
+}
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 40vh; /* No celular, a altura é menor para caber melhor */
+    }
+    
+    .carousel-caption {
+        font-size: 0.8rem; /* Diminui o texto para não cobrir a foto toda */
+    }
 }
 
